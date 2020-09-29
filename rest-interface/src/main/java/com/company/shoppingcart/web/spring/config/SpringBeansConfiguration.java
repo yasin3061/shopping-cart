@@ -2,7 +2,7 @@ package com.company.shoppingcart.web.spring.config;
 
 import com.company.shoppingcart.persistence.connector.ShoppingCartPersistenceGatewayConnector;
 import com.company.shoppingcart.persistence.repositories.ShoppingCartRepository;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 import org.company.shoppingcart.domain.persistence.ShoppingCartPersistenceGateway;
 import org.company.shoppingcart.domain.service.CachingService;
 import org.company.shoppingcart.domain.service.ShoppingCartService;

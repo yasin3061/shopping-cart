@@ -3,8 +3,8 @@ package com.company.shoppingcart.persistence.utils;
 import com.company.shoppingcart.persistence.model.Item;
 import com.company.shoppingcart.persistence.model.ShoppingCart;
 import lombok.experimental.UtilityClass;
-import org.company.shoppingcart.domain.data.ItemDto;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ItemDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 
 import java.util.Set;
 import java.util.stream.Collectors;

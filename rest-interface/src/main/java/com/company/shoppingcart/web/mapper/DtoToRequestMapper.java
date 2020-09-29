@@ -3,8 +3,8 @@ package com.company.shoppingcart.web.mapper;
 import com.company.shoppingcart.web.request.ItemRequest;
 import com.company.shoppingcart.web.request.ShoppingCartRequest;
 import com.company.shoppingcart.web.response.ShoppingCartResponse;
-import org.company.shoppingcart.domain.data.ItemDto;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ItemDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 
 import java.util.Set;
 import java.util.stream.Collectors;

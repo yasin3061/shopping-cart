@@ -1,7 +1,6 @@
-package org.company.shoppingcart.domain.data;
+package org.company.shoppingcart.domain.dto;
 
 import lombok.Builder;
-import lombok.Data;
 import lombok.Getter;
 
 import java.math.BigDecimal;

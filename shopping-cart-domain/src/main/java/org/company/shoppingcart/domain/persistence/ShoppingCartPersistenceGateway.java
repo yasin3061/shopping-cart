@@ -1,6 +1,6 @@
 package org.company.shoppingcart.domain.persistence;
 
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 
 import java.util.Optional;
 

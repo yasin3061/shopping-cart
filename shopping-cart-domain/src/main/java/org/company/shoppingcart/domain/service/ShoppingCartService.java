@@ -1,7 +1,7 @@
 package org.company.shoppingcart.domain.service;
 
-import org.company.shoppingcart.domain.data.ItemDto;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ItemDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 
 import java.util.Optional;
 import java.util.Set;

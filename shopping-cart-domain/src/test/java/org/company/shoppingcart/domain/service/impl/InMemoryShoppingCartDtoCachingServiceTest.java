@@ -1,7 +1,7 @@
 package org.company.shoppingcart.domain.service.impl;
 
 import io.github.benas.randombeans.api.EnhancedRandom;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 import org.company.shoppingcart.domain.service.CachingService;
 import org.junit.Before;
 import org.junit.Test;

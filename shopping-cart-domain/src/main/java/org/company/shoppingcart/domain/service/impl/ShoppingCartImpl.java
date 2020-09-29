@@ -1,8 +1,8 @@
 package org.company.shoppingcart.domain.service.impl;
 
 import org.apache.commons.lang3.StringUtils;
-import org.company.shoppingcart.domain.data.ItemDto;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ItemDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 import org.company.shoppingcart.domain.persistence.ShoppingCartPersistenceGateway;
 import org.company.shoppingcart.domain.service.CachingService;
 import org.company.shoppingcart.domain.service.ShoppingCartService;

@@ -1,6 +1,6 @@
 package org.company.shoppingcart.domain.service.impl;
 
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 import org.company.shoppingcart.domain.service.CachingService;
 
 import java.util.HashMap;

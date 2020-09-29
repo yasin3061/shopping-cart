@@ -3,7 +3,7 @@ package com.company.shoppingcart.web.controllers;
 import com.company.shoppingcart.web.request.ShoppingCartRequest;
 import com.company.shoppingcart.web.response.ShoppingCartResponse;
 import com.company.shoppingcart.web.mapper.DtoToRequestMapper;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 import org.company.shoppingcart.domain.service.ShoppingCartService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

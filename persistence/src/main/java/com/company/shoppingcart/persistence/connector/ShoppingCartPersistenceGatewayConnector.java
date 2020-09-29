@@ -3,7 +3,7 @@ package com.company.shoppingcart.persistence.connector;
 import com.company.shoppingcart.persistence.model.ShoppingCart;
 import com.company.shoppingcart.persistence.repositories.ShoppingCartRepository;
 import com.company.shoppingcart.persistence.utils.ModelAndDtoMapper;
-import org.company.shoppingcart.domain.data.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCartDto;
 import org.company.shoppingcart.domain.persistence.ShoppingCartPersistenceGateway;
 
 import java.util.Objects;

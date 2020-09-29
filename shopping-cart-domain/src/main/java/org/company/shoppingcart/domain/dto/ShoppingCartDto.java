@@ -1,4 +1,4 @@
-package org.company.shoppingcart.domain.data;
+package org.company.shoppingcart.domain.dto;
 
 import lombok.Builder;
 import lombok.Getter;
