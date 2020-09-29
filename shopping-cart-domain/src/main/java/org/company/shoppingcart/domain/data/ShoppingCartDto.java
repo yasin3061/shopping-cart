@@ -1,13 +1,14 @@
 package org.company.shoppingcart.domain.data;
 
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 
 import java.math.BigDecimal;
 import java.util.HashSet;
 import java.util.Set;
 
-@Data @Builder
+@Getter
+@Builder
 public class ShoppingCartDto {
     private static final HashSet<ItemDto> EMPTY_SET = new HashSet<>();
 
