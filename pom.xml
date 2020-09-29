@@ -14,11 +14,12 @@
         <version>2.1.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.company.shopizer</groupId>
-    <artifactId>shopizer</artifactId>
+    <groupId>com.company.shoppingcart</groupId>
+    <artifactId>shoppingcart-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>shopizer</name>
-    <description>Demo project for Spring Boot</description>
+    <name>shoppingcart-app</name>
+    <description>Project demonstrating implementation of haxagonal architecture using
+        Java and Spring</description>
 
     <properties>
         <java.version>1.8</java.version>
