@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication(scanBasePackages = "com.company")
 @EnableJpaRepositories(basePackages = "com.company")
 @EntityScan("com.company")
-@EnableAutoConfiguration
 public class ShopizerApp {
 
     public static void main(String[] args) {
