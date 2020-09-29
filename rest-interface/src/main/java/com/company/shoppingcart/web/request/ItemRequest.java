@@ -1,6 +1,5 @@
 package com.company.shoppingcart.web.request;
 
-import javafx.beans.DefaultProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
