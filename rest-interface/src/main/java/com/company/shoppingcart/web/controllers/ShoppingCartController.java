@@ -3,7 +3,7 @@ package com.company.shoppingcart.web.controllers;
 import com.company.shoppingcart.web.request.ShoppingCartRequest;
 import com.company.shoppingcart.web.response.ShoppingCartResponse;
 import com.company.shoppingcart.web.mapper.DtoToRequestMapper;
-import org.company.shoppingcart.domain.dto.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCart;
 import org.company.shoppingcart.domain.service.ShoppingCartService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,10 +27,10 @@ public class ShoppingCartController {
 
     @GetMapping("/{cartOwner}")
     public ResponseEntity<ShoppingCartResponse> getShoppingCart(@PathVariable("cartOwner") String cartOwner) {
-        Optional<ShoppingCartDto> cartFound = cartService.findByCartOwner(cartOwner);
+        Optional<ShoppingCart> cartFound = cartService.findByCartOwner(cartOwner);
 
         if (cartFound.isPresent()) {
-            ShoppingCartDto cartDto = cartFound.get();
+            ShoppingCart cartDto = cartFound.get();
             return ResponseEntity.ok(DtoToRequestMapper.map(cartDto));
         } else {
             return ResponseEntity.notFound().build();

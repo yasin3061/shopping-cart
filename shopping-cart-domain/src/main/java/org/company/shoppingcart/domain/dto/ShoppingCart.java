@@ -9,15 +9,15 @@ import java.util.Set;
 
 @Getter
 @Builder
-public class ShoppingCartDto {
-    private static final HashSet<ItemDto> EMPTY_SET = new HashSet<>();
+public class ShoppingCart {
+    private static final HashSet<Item> EMPTY_SET = new HashSet<>();
 
     private Long id;
     private String cartOwner;
-    private Set<ItemDto> cartItems;
+    private Set<Item> cartItems;
     private BigDecimal totalAmount;
 
-    public Set<ItemDto> getCartItems() {
+    public Set<Item> getCartItems() {
         if (cartItems != null) {
             return new HashSet<>(cartItems);
         } else {
@@ -25,7 +25,7 @@ public class ShoppingCartDto {
         }
     }
 
-    public void setCartItems(Set<ItemDto> cartItems) {
+    public void setCartItems(Set<Item> cartItems) {
         if (cartItems != null) {
             this.cartItems = new HashSet<>(cartItems);
         } else {

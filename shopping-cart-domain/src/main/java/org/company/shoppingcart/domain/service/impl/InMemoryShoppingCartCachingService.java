@@ -1,15 +1,15 @@
 package org.company.shoppingcart.domain.service.impl;
 
-import org.company.shoppingcart.domain.dto.ShoppingCartDto;
+import org.company.shoppingcart.domain.dto.ShoppingCart;
 import org.company.shoppingcart.domain.service.CachingService;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-public class InMemoryShoppingCartCachingService implements CachingService<String, ShoppingCartDto> {
+public class InMemoryShoppingCartCachingService implements CachingService<String, ShoppingCart> {
 
-    private Map<String, ShoppingCartDto> cache = new HashMap<>();
+    private Map<String, ShoppingCart> cache = new HashMap<>();
 
     @Override
     public boolean doesCartExists(String cartOwner) {
@@ -17,17 +17,17 @@ public class InMemoryShoppingCartCachingService implements CachingService<String
     }
 
     @Override
-    public Optional<ShoppingCartDto> get(String cartOwner) {
+    public Optional<ShoppingCart> get(String cartOwner) {
         return Optional.ofNullable(cache.get(cartOwner));
     }
 
     @Override
-    public void put(ShoppingCartDto cart) {
+    public void put(ShoppingCart cart) {
         cache.put(cart.getCartOwner(), cart);
     }
 
     @Override
-    public Optional<ShoppingCartDto> remove(String cartOwner) {
+    public Optional<ShoppingCart> remove(String cartOwner) {
         return Optional.ofNullable(cache.remove(cartOwner));
     }
 }
