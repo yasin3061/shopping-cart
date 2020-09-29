@@ -14,7 +14,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "shopping_cart")
+@Table(name = "shopping_carts")
 @Data @Builder
 public class ShoppingCart {
     private static final HashSet<Item> EMPTY_ITEMS = new HashSet<>();

@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "item")
+@Table(name = "items")
 @Data @Builder
 public class Item {
     @Id
