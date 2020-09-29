@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 public class SpringBeansConfiguration {
 
     @Bean
-    public CachingService getCachingService() {
+    public CachingService<String, ShoppingCartDto> getCachingService() {
         return new InMemoryShoppingCartCachingService();
     }
 
